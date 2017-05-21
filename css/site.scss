@@ -2,6 +2,7 @@
 ---
 @import "font";
 @import "color";
+@import "menu";
 
 body {
     font-family: $font-primary;
@@ -73,3 +74,5 @@ a {
         }
     }
 }
+
+
