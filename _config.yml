@@ -1,13 +1,16 @@
 # Setup
 title:        TechClub
-tagline:      A responsive theme for your project on GitHub Pages
 baseurl:      ""
 paginate:     1
 
+# Assets
+sass:
+    sass_dir: _sass
+
 # About/contact
 author:
-  name:       Author name
-  url:        http://yourhomepage.com
+  name:       TechClub
+  url:        http://techclub.nyc
 
 # Gems
 gems:
