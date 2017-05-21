@@ -34,9 +34,9 @@ a {
 .intro {
     h1 {
         font-family: $font-heading;
-        font-size: 47px;
+        font-size: 35px;
         padding: 20px 0;
-        line-height: 60px;
+        line-height: 50px;
         font-weight: 400;
         max-width: 650px;
         margin: 0 auto;
@@ -68,11 +68,114 @@ a {
         }
 
         @media screen and (max-width: 1020px) {
-            font-size: 40px;
-            line-height: 45px;
+            font-size: 30px;
+            line-height: 40px;
             max-width: 95%;
         }
     }
 }
 
 
+.statistic {
+    margin: auto;
+    margin-top: 40px;
+    max-width: 800px;
+    text-align: center;
+
+    &-banner {
+        border: 10px solid rgba(204, 204, 204, 0.17);
+        box-shadow: 17px 24px 49px -4px rgba(0,0,0,0.21);
+
+        img{
+            width: 100%;
+        }
+    }
+
+    &-title {
+        font-size: 50px;
+        font-family: $font-heading;
+        padding: 20px 0;
+        margin-top: 45px;
+        position:relative;
+        line-height: 50px;
+
+        @media screen and (max-width: 1020px) {
+            font-size: 30px;
+            max-width: 95%;
+        }
+
+        &:before {
+            font-family: "Montserrat", sans-serif;
+            font-weight: 700;
+            display: block;
+            content: "\201C";
+            font-size: 470px;
+            line-height: 100%;
+            color: $primary-color;
+            margin-bottom: -346px;
+            margin-top: -50px;
+            opacity: 0.25;
+
+            @media screen and (max-width: 1020px) {
+                font-size: 300px;
+                margin-bottom: -242px;
+            }
+        }
+    }
+
+    &-description {
+        padding: 25px;
+        font-size: 24px;
+        line-height: 2;
+        font-weight: 300;
+        margin-top: 10px;
+        color: $description-color;
+
+        @media screen and (max-width: 1020px) {
+            padding: 15px;
+            font-size: 18px;
+            line-height: 24px;
+            font-weight: 300;
+        }
+    }
+
+    &-numbers {
+        margin-top: 30px;
+        color: #8a8a8a;
+        span {
+            font-size: 35px;
+            color: $primary-color;
+        }
+    }
+
+    &-footer {
+        color: $primary-color;
+        font-size: 25px;
+        margin-top: 50px;
+        i.fa {
+            margin: 10px;
+        }
+    }
+}
+
+.footer {
+    height: 250px;
+    background: #000;
+    margin-top: 10px;
+    color: #fff;
+    text-align: center;
+    &-logo {
+        width: 150px;
+        margin: auto;
+
+        img {
+            width: 100%;
+            opacity: 0.8;
+        }
+    }
+
+    &-copyright {
+        padding: 15px;
+        border-top: 1px solid rgba(255, 255, 255, 0.35);
+    }
+}
