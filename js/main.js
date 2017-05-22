@@ -14,5 +14,9 @@ $(document).ready( function(){
         opacity: 0.2,
         distance: '15px',
         reset: true,
+        container: '.statistic'
     }, 250);
+
+    //atvimg
+    atvImg();
 })

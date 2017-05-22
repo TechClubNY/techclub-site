@@ -2,39 +2,73 @@
 layout: default
 title: {{ site.name }}
 ---
-
-<div class="intro">
-  <h1>Start from <a href="http://qc.cuny.edu" target="_blank">Queens College</a>, we are passionate about technology and students community.</h1>
-</div>
-
-<div class="statistic">
-  <div class="statistic-banner">
-    <img src="{{ site.baseurl }}/assets/img/group.jpg" />
-  </div>
-  <div class="statistic-title reveal">
-    By student, for student
-  </div>
-  <div class="statistic-description reveal">
-    We are dedicated here to help student and prepare them with the best of experiences. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+<div class="container">
+  <div class="intro">
+    <h1>Start from <a href="http://qc.cuny.edu" target="_blank">Queens College</a>, we are passionate about technology and students community.</h1>
   </div>
 
-  <div class="statistic-numbers">
-    <div class="row">
-      <div class="col-xs-4 col-md-2 col-md-offset-3 reveal">
-          <span>{{ site.data.org.teams }}</span> <br/>Teams
-      </div>
-      <div class="col-xs-4 col-md-2 reveal">
-          <span>{{ site.data.org.members }}</span> <br/>Members
-      </div>
-      <div class="col-xs-4 col-md-2 reveal">
-          <span>{{ site.data.org.projects }}</span> <br/>Projects
+  <div class="statistic">
+    <div class="statistic-banner">
+      <img src="{{ site.baseurl }}/assets/img/group.jpg" />
+    </div>
+    <div class="statistic-title reveal">
+      By student, for student
+    </div>
+    <div class="statistic-description reveal">
+      We are dedicated here to help student and prepare them with the best of experiences. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+    </div>
+
+    <div class="statistic-numbers">
+      <div class="row">
+        <div class="col-xs-4 col-md-2 col-md-offset-3 reveal">
+            <span>{{ site.data.org.teams }}</span> <br/>Teams
+        </div>
+        <div class="col-xs-4 col-md-2 reveal">
+            <span>{{ site.data.org.members }}</span> <br/>Members
+        </div>
+        <div class="col-xs-4 col-md-2 reveal">
+            <span>{{ site.data.org.projects }}</span> <br/>Projects
+        </div>
       </div>
     </div>
-  </div>
 
-  <div class="statistic-footer">
-    <i class="fa fa-star-o" aria-hidden="true"></i>
-    <i class="fa fa-star-o" aria-hidden="true"></i>
-    <i class="fa fa-star-o" aria-hidden="true"></i>
+    <div class="statistic-footer">
+      <i class="fa fa-star-o" aria-hidden="true"></i>
+      <i class="fa fa-star-o" aria-hidden="true"></i>
+      <i class="fa fa-star-o" aria-hidden="true"></i>
+    </div>
+  </div>
+</div>
+<div class="services">
+  <div class="container">
+
+    <div class="row services-list">
+      <div class="col-md-5 col-md-offset-1 reveal">
+        <div class="box atvImg vertical">
+           <div class="atvImg-layer" data-img="{{ site.baseurl }}/assets/img/design.jpg"></div>
+        </div>
+
+        <div class="box atvImg">
+           <div class="atvImg-layer" data-img="{{ site.baseurl }}/assets/img/book.jpg"></div>
+        </div>
+      </div>
+      <div class="col-md-5 reveal">
+        <div class="services-tag reveal">
+          Our Services
+        </div>
+        <div class="services-title reveal">
+          Quality that speak for themselves
+        </div>
+        <div class="services-description reveal">
+           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        </div>
+        <div class="btn btn-tc btn-lg">Find Out More <i class="fa fa-external-link" aria-hidden="true"></i></div>
+      </div>
+    </div>
+    <div class="services-footer">
+      <i class="fa fa-star-o" aria-hidden="true"></i>
+      <i class="fa fa-star-o" aria-hidden="true"></i>
+      <i class="fa fa-star-o" aria-hidden="true"></i>
+    </div>
   </div>
 </div>
