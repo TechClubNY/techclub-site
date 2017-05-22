@@ -15,6 +15,7 @@ author:
 # Gems
 gems:
   - jekyll-paginate
+  - octopress-autoprefixer
 
 #Others
 markdown: kramdown
