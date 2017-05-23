@@ -175,7 +175,6 @@ a {
 .footer {
     height: 250px;
     background: #000;
-    margin-top: 10px;
     color: #fff;
     text-align: center;
     &-logo {
@@ -195,7 +194,6 @@ a {
 }
 
 .services {
-    background: #fafafa;
     padding: 40px 0;
     text-align: center;
 
@@ -250,6 +248,118 @@ a {
         width: 300px;
         margin: 25px auto;
     }
+}
+
+
+.joinclub {
+    .joining {
+        width: 100%;
+        margin: auto;
+        padding: 40px 10%;
+        text-align: center;
+
+        .inner {
+            border: 3px solid $primary-color;
+            height: 100%;
+            padding: 50px 0;
+        }
+    }
+
+    &-title {
+        @extend .quote;
+        margin: auto;
+        width: 350px;
+        color: $primary-color;
+
+        &:before {
+            content: "\f197"; //plane
+            transform: rotate(-30deg);
+            font-family: FontAwesome;
+            margin-bottom: -75px;
+            margin-top: -30px;
+            font-size: 100px;
+        }
+    }
+
+    &-description {
+        @extend .paragraph;
+        color: $primary-color;
+        max-width: 80%;
+        margin: auto;
+    }
+
+    &-subscribe {
+        max-width: 80%;
+        margin: auto;
+        color: $primary-color;
+
+        input {
+            background: none;
+            border: none;
+            border-bottom: 2px solid $primary-color;
+            padding: 0px 25px;
+            text-align: center;
+
+            &::placeholder {
+                color: lighten($primary-color, 10%);
+            }
+
+            &:focus {
+                outline:0;
+            }
+        }
+
+        button {
+            background: none;
+            margin-left: 15px;
+            width: 100px;
+            outline: none;
+
+            @media screen and (max-width: 1020px) {
+                display: block;
+                margin: auto;
+                margin-top: 15px;
+            }
+
+            &:hover {
+                color: #000 !important;
+            }
+        }
+    }
+}
+
+
+//helps
+
+.bg-gray {
+    background: #fafafa;
+}
+
+.bg-white {
+    background: #fff;
+}
+
+.bg-black {
+    background: #000;
+}
+
+@for $i from 1 through 9 {
+    $transparent: $i * 10;
+    $opacity: $i / 10;
+    .bg-black-tr#{ $transparent } {
+        background: rgba(0,0,0, $opacity);
+    }
+}
+
+.bg-signing {
+    background-image: url({{ site.baseurl }}/assets/img/sign.jpg);
+    background-size: cover;
+}
+
+.bg-welcome {
+    background-image: url({{ site.baseurl }}/assets/img/welcome.jpg);
+    background-size: cover;
+    background-position-y: center;
 }
 
 .btn-tc {
