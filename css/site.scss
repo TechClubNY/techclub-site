@@ -383,6 +383,61 @@ a {
     }
 }
 
+.visit {
+    color: #FFF;
+
+    .visiting {
+        width: 100%;
+        margin: auto;
+        padding: 40px 10%;
+        text-align: center;
+
+        .inner {
+            border: 10px solid #fff;
+            height: 100%;
+            padding: 50px 0;
+        }
+    }
+
+    &-footer {
+        @extend .section-footer;
+        color: #fff;
+        margin-bottom: 0;
+    }
+
+    &-title {
+        @extend .quote;
+        margin: auto;
+        color: #fff;
+
+        &:before {
+            content: "\f075"; //calendar
+            //transform: rotate(-30deg);
+            font-family: FontAwesome;
+            margin-bottom: -75px;
+            margin-top: -30px;
+            font-size: 100px;
+            color: #fff;
+        }
+    }
+
+     &-description {
+        @extend .paragraph;
+        color: #FFF;
+        max-width: 80%;
+        margin: auto;
+    }
+
+    button {
+        color: #ffffff;
+        background-color: transparent;
+        border-color: #ffffff;
+        transition: all .4s;
+        &:hover {
+            background-color: #526c87;
+        }
+    }
+}
 //helps
 
 .bg-gray {
@@ -405,6 +460,13 @@ a {
     }
 }
 
+@for $i from 1 through 9 {
+    $transparent: $i * 10;
+    $opacity: $i / 10;
+    .bg-gray-tr#{ $transparent } {
+        background: rgba(105,105,105, $opacity);
+    }
+}
 .bg-signing {
     background-image: url({{ site.baseurl }}/assets/img/sign.jpg);
     background-size: cover;
@@ -412,6 +474,12 @@ a {
 
 .bg-welcome {
     background-image: url({{ site.baseurl }}/assets/img/welcome.jpg);
+    background-size: cover;
+    background-position-y: center;
+}
+
+.bg-visit {
+    background-image: url({{ site.baseurl }}/assets/img/visit.jpg);
     background-size: cover;
     background-position-y: center;
 }

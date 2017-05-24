@@ -13,7 +13,7 @@ $(document).ready( function(){
         //scroll
         window.sr = ScrollReveal();
 
-        $.each(['services', 'statistic', 'joinclub', 'partners'], function(i, el){
+        $.each(['services', 'statistic', 'joinclub', 'partners', 'visit'], function(i, el){
             sr.reveal('.reveal', {
                 duration: 1000,
                 scale: 1,
