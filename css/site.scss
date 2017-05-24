@@ -203,6 +203,10 @@ a {
         .fa {
             font-size: 50px;
             margin: 0 15px;
+
+            @media screen and (max-width: 1020px) {
+                margin: 0 5px;
+            }
         }
     }
 
@@ -216,6 +220,10 @@ a {
         height: 65px;
         border-left: 1px solid rgba(255, 255, 255, 0.35);
         margin-top: -20px;
+
+        @media screen and (max-width: 1020px) {
+            height: 40px;
+        }
     }
 
     .extender.bottom {
@@ -400,6 +408,10 @@ a {
             transition: filter .5s;
 
             &:hover {
+                filter: none;
+            }
+
+            @media screen and (max-width: 1020px) {
                 filter: none;
             }
         }
