@@ -173,7 +173,6 @@ a {
 }
 
 .footer {
-    height: 250px;
     background: #000;
     color: #fff;
     text-align: center;
@@ -190,6 +189,37 @@ a {
     &-copyright {
         padding: 15px;
         border-top: 1px solid rgba(255, 255, 255, 0.35);
+    }
+
+    &-socials {
+
+        a {
+            color: rgba(255, 255, 255, 0.50) !important;
+
+            &:hover {
+                color: $primary-color !important;
+            }
+        }
+        .fa {
+            font-size: 50px;
+            margin: 0 15px;
+        }
+    }
+
+    &-contacts {
+        color: rgba(255, 255, 255, 0.50);
+    }
+
+    .extender {
+        margin: 15px 0;
+        margin-left: 50%;
+        height: 65px;
+        border-left: 1px solid rgba(255, 255, 255, 0.35);
+        margin-top: -20px;
+    }
+
+    .extender.bottom {
+        margin-top: 10px;
     }
 }
 
