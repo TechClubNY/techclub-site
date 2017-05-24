@@ -302,10 +302,15 @@ a {
 
             &::placeholder {
                 color: lighten($primary-color, 10%);
+                transition: color .2s;
             }
 
             &:focus {
                 outline:0;
+
+                &::placeholder {
+                    color: transparent;
+                }
             }
         }
 
@@ -326,8 +331,57 @@ a {
             }
         }
     }
+
+    &-footer {
+        @extend .section-footer;
+        margin-bottom: 0;
+    }
 }
 
+.partners {
+    padding: 80px 0;
+    text-align: center;
+
+    &-tag {
+        font-size: 25px;
+        font-weight: 300;
+    }
+
+    &-title {
+        @extend .quote;
+        margin: auto;
+    }
+
+    &-description {
+        @extend .paragraph;
+        color: $primary-color;
+        max-width: 80%;
+        margin: auto;
+    }
+
+    &-list {
+        padding: 50px 0;
+        img {
+            width: 200px;
+            height: auto;
+            display: block;
+            margin: auto;
+            filter: grayscale(100%);
+            transition: filter .5s;
+
+            &:hover {
+                filter: none;
+            }
+        }
+    }
+
+    &-footer {
+        @extend .section-footer;
+        @media screen and (max-width: 1020px) {
+            margin-top: 15px;
+        }
+    }
+}
 
 //helps
 
@@ -371,5 +425,19 @@ a {
     &:hover {
         background-color: $primary-color;
         color: #fff;
+    }
+}
+
+.v-center {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+    width: 32%;
+
+    @media screen and (max-width: 1020px) {
+        display: block;
+        float: left;
+        width: 100%;
+        margin: 15px auto;
     }
 }

@@ -12,15 +12,18 @@ $(document).ready( function(){
 
         //scroll
         window.sr = ScrollReveal();
-        sr.reveal('.reveal', {
-            duration: 1000,
-            scale: 1,
-            opacity: 0.2,
-            distance: '15px',
-            reset: true,
-            delay: 250
-        }, 250);
 
+        $.each(['services', 'statistic', 'joinclub', 'partners'], function(i, el){
+            sr.reveal('.reveal', {
+                duration: 1000,
+                scale: 1,
+                opacity: 0.2,
+                distance: '15px',
+                reset: true,
+                container: '.'+el,
+                delay: 250
+            }, 250);
+        })
 
     });
     //menu
