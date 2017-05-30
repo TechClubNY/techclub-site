@@ -15,7 +15,7 @@ $(document).ready( function(){
     //scroll
     window.sr = ScrollReveal();
 
-    $.each(['services', 'statistic', 'joinclub', 'partners', 'visit'], function(i, el){
+    $.each(['services', 'statistic', 'joinclub', 'partners', 'lightbox'], function(i, el){
         let $container = '.'+el;
         if($($container).length){
             sr.reveal('.reveal', {

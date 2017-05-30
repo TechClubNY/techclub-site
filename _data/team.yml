@@ -1,0 +1,29 @@
+- name: Eric Mill
+  github: konklone
+  position: CEO
+  avatar: staff1.jpg
+  facebook: http://facebook.com
+  twitter: http://twitter.com
+  linkedin: http://linkedin.com
+
+- name: Parker Moore
+  github: parkr
+  position: Web Developer
+  avatar: staff2.jpg
+  facebook: http://facebook.com
+  linkedin: http://linkedin.com
+
+- name: Liu Fengyun
+  github: liufengyun
+  position: CTO
+  avatar: staff3.jpg
+  twitter: http://twitter.com
+  linkedin: http://linkedin.com
+
+- name: John Smith
+  github: liufengyun
+  position: Designer
+  avatar: staff4.jpg
+  facebook: http://facebook.com
+  twitter: http://twitter.com
+  linkedin: http://linkedin.com

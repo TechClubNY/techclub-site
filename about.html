@@ -2,5 +2,106 @@
 layout: default
 title: {{ site.name }}
 ---
+<div class="lightbox bg-desk">
+  <div class="lightbox-container bg-gray-tr40">
+    <div class="row inner">
+        <div class="lightbox-title reveal">
+          About TechClub
+        </div>
+        <div class="lightbox-description reveal">
+          We dedicate ourselves to help students expand their horizons by providing unique skills and experiences to better prepare them for their future.
+        </div>
+      </div>
+  </div>
+</div>
 
-<div>Under Construction...</div>
+<div class="container" id="about">
+    <div class="row">
+        <div class="col-md-4 item">
+            <h3 class="quote">Whoe we are</h3>
+        </div>
+        <div class="col-md-8 paragraph">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+    </div>
+
+    <div class="row services-list">
+        <div class="col-md-4 item" >
+            <h3 class="quote">Our Services</h3>
+        </div>
+        <div class="col-md-8 services-list-container">
+            <div class="row">
+                <div class="col-md-6 services-list-item">
+                    <span class="services-list_index">01</span>
+                    <span class="services-list_title">Design</span>
+                    <div class="paragraph">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </div>
+                </div>
+                <div class="col-md-6 services-list-item">
+                    <span class="services-list_index">02</span>
+                    <span class="services-list_title">Development</span>
+                    <div class="paragraph">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 services-list-item">
+                    <span class="services-list_index">03</span>
+                    <span class="services-list_title">Marketing</span>
+                    <div class="paragraph">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </div>
+                </div>
+                <div class="col-md-6 services-list-item">
+                    <span class="services-list_index">04</span>
+                    <span class="services-list_title">Training</span>
+                    <div class="paragraph">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row team">
+        <div class="col-md-4 item">
+            <h3 class="quote">Our Team</h3>
+        </div>
+        <div class="col-md-8 team-list">
+            <div class="row">
+                {% for member in site.data.team %}
+                    <div class="col-md-6 team-list-item">
+                        <div class="team-list-item_avatar atvImg">
+                           <img src="{{ site.baseurl }}/assets/img/team/{{ member.avatar }}" />
+                           <div class="atvImg-layer" data-img="{{ site.baseurl }}/assets/img/team/{{ member.avatar }}"></div>
+                        </div>
+
+                        <div class="team-list-item_description">
+                            <h5>{{ member.name }}</h5>
+                            <span>{{ member.position }}</span>
+                            <div class="team-list-item_description-socials">
+                                {% if member.facebook != null %}
+                                <a href="{{ member.facebook }}" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                {% endif %}
+                                {% if member.twitter != null %}
+                                <a href="{{ member.twitter }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                {% endif %}
+                                {% if member.linkedin != null %}
+                                <a href="{{ member.linkedin }}" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+    <div class="about-footer">
+      <i class="fa fa-star-o" aria-hidden="true"></i>
+      <i class="fa fa-star-o" aria-hidden="true"></i>
+      <i class="fa fa-star-o" aria-hidden="true"></i>
+    </div>
+</div>
