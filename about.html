@@ -17,28 +17,28 @@ title: {{ site.name }}
 
 <div class="container" id="about">
     <div class="row">
-        <div class="col-md-4 item">
+        <div class="col-md-4 item reveal">
             <h3 class="quote">Whoe we are</h3>
         </div>
-        <div class="col-md-8 paragraph">
+        <div class="col-md-8 paragraph reveal">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
         </div>
     </div>
 
     <div class="row services-list">
-        <div class="col-md-4 item" >
+        <div class="col-md-4 item reveal" >
             <h3 class="quote">Our Services</h3>
         </div>
         <div class="col-md-8 services-list-container">
             <div class="row">
-                <div class="col-md-6 services-list-item">
+                <div class="col-md-6 services-list-item reveal">
                     <span class="services-list_index">01</span>
                     <span class="services-list_title">Design</span>
                     <div class="paragraph">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </div>
                 </div>
-                <div class="col-md-6 services-list-item">
+                <div class="col-md-6 services-list-item reveal">
                     <span class="services-list_index">02</span>
                     <span class="services-list_title">Development</span>
                     <div class="paragraph">
@@ -47,14 +47,14 @@ title: {{ site.name }}
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6 services-list-item">
+                <div class="col-md-6 services-list-item reveal">
                     <span class="services-list_index">03</span>
                     <span class="services-list_title">Marketing</span>
                     <div class="paragraph">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </div>
                 </div>
-                <div class="col-md-6 services-list-item">
+                <div class="col-md-6 services-list-item reveal">
                     <span class="services-list_index">04</span>
                     <span class="services-list_title">Training</span>
                     <div class="paragraph">
@@ -66,13 +66,13 @@ title: {{ site.name }}
     </div>
 
     <div class="row team">
-        <div class="col-md-4 item">
+        <div class="col-md-4 item reveal">
             <h3 class="quote">Our Team</h3>
         </div>
         <div class="col-md-8 team-list">
             <div class="row">
                 {% for member in site.data.team %}
-                    <div class="col-md-6 team-list-item">
+                    <div class="col-md-6 team-list-item reveal">
                         <div class="team-list-item_avatar atvImg">
                            <img src="{{ site.baseurl }}/assets/img/team/{{ member.avatar }}" />
                            <div class="atvImg-layer" data-img="{{ site.baseurl }}/assets/img/team/{{ member.avatar }}"></div>
