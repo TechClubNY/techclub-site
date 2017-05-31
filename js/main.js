@@ -12,7 +12,7 @@ $(document).ready( function(){
     Pace.on("done", function(){
         $(".cover").fadeOut(500, function(){
             //reveal contents after cover fadeout
-            $.each(['.services', '.statistic', '.joinclub', '.partners', '.lightbox', '#about'], function(i, el){
+            $.each(['.services', '.statistic', '.joinclub', '.partners', '.lightbox', '#about', '#contacts'], function(i, el){
                 let $container = el;
                 if($($container).length){
                     sr.reveal('.reveal', {

@@ -683,6 +683,9 @@ a {
 
         &-item {
             padding: 0;
+            @media screen and (max-width: 1020px){
+                padding: 20px;
+            }
         }
 
         &_title {
@@ -706,6 +709,10 @@ a {
         @extend .section-footer;
         text-align: center;
         margin-bottom: 0;
+    }
+
+    @media screen and (max-width: 1020px) {
+        text-align: center;
     }
 }
 
