@@ -29,7 +29,7 @@ title: {{ site.name }}
         <a href="{% if project.blog != null %}{{ site.baseurl }}{{ project.blog }}{% else %}javascript:;{% endif %}">
           <div class="element-item {% for types in project.types %} {{ types }} {% endfor %}" data-category="transition">
             <div class="atvImg">
-              <img src="{{ site.baseurl }}/assets/img/design.jpg" />
+              <img src="{{ site.baseurl }}/assets/img/projects/{{ project.slag }}/cover.jpg" />
               <div class="atvImg-layer" data-img="{{ site.baseurl }}/assets/img/projects/{{ project.slag }}/cover.jpg"></div>
               <div class="atvImg-layer" data-img="{{ site.baseurl }}/assets/img/projects/{{ project.slag }}/logo.png"></div>
             </div>
