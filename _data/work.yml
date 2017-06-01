@@ -1,0 +1,10 @@
+- name: AStrongerTomorrow
+  slag: ast
+  types:
+    - development
+
+- name: TeamUp
+  slag: teamup
+  types:
+    - development
+    - design

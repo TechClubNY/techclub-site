@@ -3,7 +3,7 @@ layout: default
 title: {{ site.name }}
 ---
 
-<div class="lightbox bg-newyork">
+<div class="lightbox bg-work">
   <div class="lightbox-container bg-gray-tr60">
     <div class="row inner">
         <div class="lightbox-title reveal">
@@ -16,3 +16,26 @@ title: {{ site.name }}
   </div>
 </div>
 
+<div class="container" id="profolio">
+
+    <div class="button-group filters-button-group">
+      <button class="filter-btn is-checked" data-filter="*">show all</button>
+      <button class="filter-btn" data-filter=".development">development</button>
+      <button class="filter-btn" data-filter=".design">design</button>
+    </div>
+
+    <div class="grid" >
+      {% for project in site.data.work %}
+        <div class="element-item {% for types in project.types %} {{ types }} {% endfor %}" data-category="transition">
+          <div class="atvImg">
+            <img src="{{ site.baseurl }}/assets/img/design.jpg" />
+            <div class="atvImg-layer" data-img="{{ site.baseurl }}/assets/img/projects/{{ project.slag }}/cover.jpg"></div>
+            <div class="atvImg-layer" data-img="{{ site.baseurl }}/assets/img/projects/{{ project.slag }}/logo.png"></div>
+          </div>
+          <h4>{{ project.name }}</h4>
+        </div>
+
+      {% endfor %}
+    </div>
+
+</div>

@@ -38,10 +38,6 @@ $(document).ready( function(){
     });
 
 
-    //atvimg
-    if(!mobilecheck()) atvImg();
-
-
     //map
 
     if($('#gmap').length){
@@ -280,4 +276,8 @@ $(document).ready( function(){
         });
 
     }
+
+
+    //atvimg
+    if(!mobilecheck()) atvImg();
 })

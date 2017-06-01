@@ -728,12 +728,92 @@ a {
     padding: 40px 0;
 
     .button-group, .grid {
-        margin: auto;
+        margin: 40px auto;
     }
+
     .element-item {
-        height: 300px;
-        width: 20%;
-        background: #000;
+        height: 400px;
+        width: 400px;
+        margin: 5px 20px;
+
+        .atvImg {
+            width: 100%;
+            height: 300px;
+        }
+
+        h4 {
+            color: $primary-color;
+            margin-top: 15px;
+            font-size: 26px;
+        }
+    }
+
+    .filter-btn:not(:first-child){
+        margin-left: 15px;
+    }
+
+    .filter-btn {
+        @extend a;
+
+        background: transparent;
+        border: none;
+        font-size: 30px;
+        text-transform: capitalize;
+        color: #ccc;
+        position: relative;
+        display: inline-block;
+
+        &.is-checked{
+            color: $primary-color;
+            &:after {
+                background-color: #d7b065;
+            }
+        }
+
+        &:after {
+            content: '';
+            display: block;
+            width: 50px;
+            height: 3px;
+            background-color: #efefef;
+            transition: width .3s;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            text-decoration: none;
+        }
+
+        &:hover:after {
+            width: 100%;
+            background-color: #d7b065;
+        }
+
+        &:focus {
+            outline:0;
+        }
+    }
+
+    @media screen and (max-width: 1020px) {
+        padding: 0 20px;
+
+        .element-item {
+            width: 100%;
+            margin: 0;
+
+        }
+
+        .filter-btn{
+            width: 100%;
+            transition: color .3s;
+            &:after {
+                transition: background-color .5s;
+                width: 100%;
+            }
+        }
+
+        .filter-btn:not(:first-child){
+            margin-left: 0;
+        }
     }
 }
 
@@ -793,6 +873,12 @@ a {
 
 .bg-newyork {
     background-image: url({{ site.baseurl }}/assets/img/newyork.jpg);
+    background-size: cover;
+    background-position-y: center;
+}
+
+.bg-work {
+    background-image: url({{ site.baseurl }}/assets/img/work.jpg);
     background-size: cover;
     background-position-y: center;
 }
