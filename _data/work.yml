@@ -2,9 +2,11 @@
   slag: ast
   types:
     - development
+  blog: /projects/astrongertomorrow/
 
 - name: TeamUp
   slag: teamup
   types:
     - development
     - design
+  blog: /projects/teamup/
