@@ -34,4 +34,4 @@ _A whole view_..
 <img src="{{ site.baseurl }}/assets/img/projects/ast/scoopnest.png" width="400px" height="300px" />
 
 ## Press and Media
-<img src="{{ site.baseurl }}/assets/img/projects/ast/Project Press&media.png" width="120px" height="60px" />
+<img src="{{ site.baseurl }}/assets/img/projects/ast/Press&media.png" width="120px" height="60px" />
