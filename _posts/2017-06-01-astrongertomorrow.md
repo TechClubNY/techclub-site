@@ -16,8 +16,8 @@ As college education is becoming more and more necessary for today’s world, we
 (3) It's **multilingual**, currently support English, Spanish and Chinese.
 
 <img src="{{ site.baseurl }}/assets/img/projects/ast/homepagedemo.gif" width="100px" height="200px" />
-APP-Home page
+_*Home page-APP_
 <img src="{{ site.baseurl }}/assets/img/projects/ast/resultpagedemo.gif" width="100px" height="200px" />
-APP-Finding result 
+_*Finding result_
 <img src="{{ site.baseurl }}/assets/img/projects/ast/tipsdemo.gif" width="100px" height="200px" />
-APP-Writing review 
+_*Writing review_
