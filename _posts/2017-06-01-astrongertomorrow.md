@@ -25,8 +25,8 @@ _Writing review_..
 _A whole view_..
 
 ## Project Timelines
-<img src="{{ site.baseurl }}/assets/img/projects/ast/Project timeline1.png" width="360px" height="220px" />
-<img src="{{ site.baseurl }}/assets/img/projects/ast/Project timeline2.png" width="360px" height="220px" />
+<img src="{{ site.baseurl }}/assets/img/projects/ast/Project timeline1.png" width="400px" height="300px" />
+<img src="{{ site.baseurl }}/assets/img/projects/ast/Project timeline2.png" width="400px" height="300px" />
 
 ## Event Photos 
 
