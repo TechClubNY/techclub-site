@@ -16,14 +16,14 @@ As college education is becoming more and more necessary for today’s world, we
 (3) It's **multilingual**, currently support English, Spanish and Chinese.
 
 <img src="{{ site.baseurl }}/assets/img/projects/ast/homepagedemo.gif" width="100px" height="200px" />
-* _Home page-APP_
+_Home page-APP_..
 <img src="{{ site.baseurl }}/assets/img/projects/ast/resultpagedemo.gif" width="100px" height="200px" />
-* _Finding result_
+_Finding result_..
 <img src="{{ site.baseurl }}/assets/img/projects/ast/tipsdemo.gif" width="100px" height="200px" />
-* _Writing review_
+_Writing review_..
 <img src="{{ site.baseurl }}/assets/img/projects/ast/detaildemo.gif" width="100px" height="200px" />
-* _A whole view_
+_A whole view_..
 
 ## Project Timelines
-<img src="{{ site.baseurl }}/assets/img/projects/ast/Project timeline1.png" width="100px" height="200px" />
-<img src="{{ site.baseurl }}/assets/img/projects/ast/Project timeline2.png" width="100px" height="200px" />
+<img src="{{ site.baseurl }}/assets/img/projects/ast/Project timeline1.png" width="300px" height="200px" />
+<img src="{{ site.baseurl }}/assets/img/projects/ast/Project timeline2.png" width="350px" height="200px" />
