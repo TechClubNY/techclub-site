@@ -15,5 +15,5 @@ As college education is becoming more and more necessary for today’s world, we
 (2) It’s a **friendly community** where students able to write and share reviews & feedback.
 (3) It's **multilingual**, currently support English, Spanish and Chinese.
 
-![testing pics]({{ site.baseurl }}/assets/img/projects/ast/tipsdemo.gif)
+![testing pics]({{ site.baseurl }}/assets/img/projects/ast/tipsdemo.gif =100x100)
 
