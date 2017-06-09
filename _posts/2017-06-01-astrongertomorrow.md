@@ -25,11 +25,11 @@ _Writing review_..
 _A whole view_..
 
 ## Project Timelines
-<img src="{{ site.baseurl }}/assets/img/projects/ast/Project timeline1.png" width="350px" height="250px" />
+<img src="{{ site.baseurl }}/assets/img/projects/ast/Project timeline1.png" width="330px" height="230px" />
 <img src="{{ site.baseurl }}/assets/img/projects/ast/Project timeline2.png" width="380px" height="260px" />
 
 ## Event Photos 
-<img src="{{ site.baseurl }}/assets/img/projects/ast/withClinton&GovernorCuomo0412.jpg" width="350px" height="280px" />
+<img src="{{ site.baseurl }}/assets/img/projects/ast/withClinton&GovernorCuomo0412.jpg" width="330px" height="280px" />
 <img src="{{ site.baseurl }}/assets/img/projects/ast/BoardofTrustees meeting with President-Instagram.png" width="420px" height="260px" />
 <img src="{{ site.baseurl }}/assets/img/projects/ast/scoopnest.png" width="320px" height="280px" />
 
