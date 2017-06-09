@@ -11,9 +11,9 @@ Our vision is to build a matching engine that connects scholarships and grants t
 As college education is becoming more and more necessary for today’s world, we want to help students who are struggling with tuition be debt free and finish college so they can have a stronger tomorrow. 
 
 ## Project Focus
-* (1) It provides **personalized match** for students when they provide basic information such as household income and academic performance.
-* (2) It’s a **friendly community** where students able to write and share reviews & feedback.
-* (3) It's **multilingual**, currently support English, Spanish and Chinese.
+*  It provides **personalized match** for students when they provide basic information such as household income and academic performance.
+*  It’s a **friendly community** where students able to write and share reviews & feedback.
+*  It's **multilingual**, currently support English, Spanish and Chinese.
 
 <img src="{{ site.baseurl }}/assets/img/projects/ast/homepagedemo.gif" width="100px" height="200px" />
 _Home page-APP_..
@@ -25,8 +25,8 @@ _Writing review_..
 _A whole view_..
 
 ## Project Timelines
-<img src="{{ site.baseurl }}/assets/img/projects/ast/Project timeline1.png" width="330px" height="230px" />
-<img src="{{ site.baseurl }}/assets/img/projects/ast/Project timeline2.png" width="380px" height="260px" />
+* <img src="{{ site.baseurl }}/assets/img/projects/ast/Project timeline1.png" width="300px" height="200px" />
+* <img src="{{ site.baseurl }}/assets/img/projects/ast/Project timeline2.png" width="380px" height="260px" />
 
 ## Event Photos 
 <img src="{{ site.baseurl }}/assets/img/projects/ast/withClinton&GovernorCuomo0412.jpg" width="330px" height="280px" />
@@ -34,4 +34,4 @@ _A whole view_..
 <img src="{{ site.baseurl }}/assets/img/projects/ast/scoopnest.png" width="320px" height="280px" />
 
 ## Press and Media
-<img src="{{ site.baseurl }}/assets/img/projects/ast/Press&media.png" width="280px" height="120px" />
+<img src="{{ site.baseurl }}/assets/img/projects/ast/Press&media.png" width="400px" height="150px" />
