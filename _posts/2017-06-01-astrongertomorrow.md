@@ -15,5 +15,9 @@ As college education is becoming more and more necessary for today’s world, we
 (2) It’s a **friendly community** where students able to write and share reviews & feedback.
 (3) It's **multilingual**, currently support English, Spanish and Chinese.
 
+<img src="{{ site.baseurl }}/assets/img/projects/ast/homepagedemo.gif" width="100px" height="200px" />
+APP-Home page
+<img src="{{ site.baseurl }}/assets/img/projects/ast/resultpagedemo.gif" width="100px" height="200px" />
+APP-Finding result 
 <img src="{{ site.baseurl }}/assets/img/projects/ast/tipsdemo.gif" width="100px" height="200px" />
-
+APP-Writing review 
