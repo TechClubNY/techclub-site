@@ -29,9 +29,9 @@ _A whole view_..
 * <img src="{{ site.baseurl }}/assets/img/projects/ast/Project timeline2.png" width="380px" height="260px" />
 
 ## Event Photos 
-<img src="{{ site.baseurl }}/assets/img/projects/ast/withClinton&GovernorCuomo0412.jpg" width="292px" height="280px" />
-<img src="{{ site.baseurl }}/assets/img/projects/ast/BoardofTrustees meeting with President-Instagram.png" width="430px" height="260px" />
-<img src="{{ site.baseurl }}/assets/img/projects/ast/scoopnest.png" width="292px" height="280px" />
+<img src="{{ site.baseurl }}/assets/img/projects/ast/withClinton&GovernorCuomo0412.jpg" width="260px" height="250px" />
+<img src="{{ site.baseurl }}/assets/img/projects/ast/BoardofTrustees meeting with President-Instagram.png" width="390px" height="240px" />
+<img src="{{ site.baseurl }}/assets/img/projects/ast/scoopnest.png" width="260px" height="250px" />
 
 ## Press and Media
 <img src="{{ site.baseurl }}/assets/img/projects/ast/Press&media.png" width="500px" height="160px" />
