@@ -31,4 +31,4 @@ _A whole view_..
 ## Event Photos 
 
 ## Press and Media
-<img src="{{ site.baseurl }}/assets/img/projects/ast/Project Press&media.png" width="360px" height="220px" />
+<img src="{{ site.baseurl }}/assets/img/projects/ast/Project Press&media.png" width="100px" height="40px" />
