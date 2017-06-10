@@ -6,6 +6,7 @@ paginate:     1
 # Assets
 sass:
     sass_dir: _sass
+    style: compressed
 
 # About/contact
 author:

@@ -822,6 +822,33 @@ a {
 *******************************************/
 .post {
     margin: 40px auto;
+
+    h1,h2,h3,h4 {
+        @extend .quote;
+        color: $primary-color;
+
+        &:before{
+            opacity: 0.05;
+        }
+    }
+
+    p, ul {
+        @extend .paragraph;
+    }
+
+    ul {
+        list-style-type: none;
+        li {
+            margin: 10px auto;
+        }
+    }
+
+    @media screen and (max-width: 1020px) {
+        img {
+            width: 100% !important;
+            height: auto;
+        }
+    }
 }
 
 /*******************************************
