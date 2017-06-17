@@ -11,6 +11,7 @@
   position: Coordinator
   avatar: carlos-01.png
   facebook: http://facebook.com
+  twitter: https://twitter.com/cb3ltran
   linkedin: linkedin.com/in/c-beltran
 
 - name: Zifang Huang
@@ -26,9 +27,3 @@
   avatar: navid-01.jpg
   twitter: https://twitter.com/NavidXeon
   linkedin: linkedin.com/in/nvdia
-  
-- name: Luis Diaz
-  github: LuisDiazA
-  position: Developer
-  avatar: luisdiaz.jpg
-  linkedin: linkedin.com/in/luisdiaza
