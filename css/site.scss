@@ -285,6 +285,7 @@ a {
             max-width: 85%;
             margin: auto;
             margin-bottom: 20px;
+            height: auto;
         }
 
         &:hover {
@@ -292,7 +293,7 @@ a {
             box-shadow: none;
         }
         img {
-            height: 100%;
+            height: auto;
             width: 100%;
         }
     }
@@ -301,6 +302,9 @@ a {
         height: 500px;
         width: 300px;
         margin: 25px auto;
+        @media screen and (max-width: 1020px) {
+            height: auto;
+        }
     }
 }
 
@@ -565,6 +569,12 @@ a {
 
             &_avatar {
                 height: 200px;
+                max-width: 200px;
+
+                @media screen and (max-width: 1020px) {
+
+                    max-width: none;
+                }
             }
 
             &_description {
@@ -633,6 +643,7 @@ a {
                 img {
                     width: auto;
                     height: 200px;
+                    margin: auto;
                 }
             }
         }
@@ -894,6 +905,18 @@ a {
 
 .bg-desk {
     background-image: url({{ site.baseurl }}/assets/img/desk.jpg);
+    background-size: cover;
+    background-position-y: center;
+}
+
+.bg-thumb {
+    background-image: url({{ site.baseurl }}/assets/img/group3.jpg);
+    background-size: cover;
+    background-position-y: center;
+}
+
+.bg-workspace {
+    background-image: url({{ site.baseurl }}/assets/img/group4.jpg);
     background-size: cover;
     background-position-y: center;
 }

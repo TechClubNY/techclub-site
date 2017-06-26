@@ -1,7 +1,7 @@
 - name: Charlie Lin
   github: n7best
   position: Manager
-  avatar: charlie.jpg
+  avatar: charlie-1.jpg
   facebook: http://facebook.com
   twitter: http://twitter.com
   linkedin: linkedin.com/in/n7best
@@ -9,7 +9,7 @@
 - name: Carlos A. Beltran
   github: c-beltran
   position: Coordinator
-  avatar: carlos-01.png
+  avatar: carlos-1.jpg
   facebook: http://facebook.com
   twitter: https://twitter.com/cb3ltran
   linkedin: linkedin.com/in/c-beltran
@@ -17,13 +17,29 @@
 - name: Zifang Huang
   github: Zifang32
   position: Team Leader
-  avatar: staff3.jpg
+  avatar: zifang-1.jpg
   twitter: https://twitter.com/ZifangHuang
   linkedin: linkedin.com/in/zfhang
 
 - name: Navidur Rahman
   github: Rival104
   position: Developer
-  avatar: navid-01.jpg
+  avatar: navid-1.jpg
   twitter: https://twitter.com/NavidXeon
   linkedin: linkedin.com/in/nvdia
+
+- name: Hui Lin
+  position: Developer
+  avatar: hui-1.jpg
+
+- name: Kevin Reinoso
+  position: Developer
+  avatar: kevin-1.jpg
+
+- name: Xin Yuan
+  position: Developer
+  avatar: xin-1.jpg
+
+- name: Victor Singh
+  position: Developer
+  avatar: victor-1.jpg

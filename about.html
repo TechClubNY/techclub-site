@@ -2,8 +2,8 @@
 layout: default
 title: {{ site.name }}
 ---
-<div class="lightbox bg-desk">
-  <div class="lightbox-container bg-gray-tr40">
+<div class="lightbox bg-workspace">
+  <div class="lightbox-container bg-gray-tr20">
     <div class="row inner">
         <div class="lightbox-title reveal">
           About TechClub
@@ -69,10 +69,10 @@ title: {{ site.name }}
         <div class="col-md-4 item reveal">
             <h3 class="quote">Our Team</h3>
         </div>
-        <div class="col-md-8 team-list">
-            <div class="row">
+    </div>
+    <div class="row">
                 {% for member in site.data.team %}
-                    <div class="col-md-6 team-list-item reveal">
+                    <div class="col-md-3 team-list-item reveal">
                         <div class="team-list-item_avatar atvImg">
                            <img src="{{ site.baseurl }}/assets/img/team/{{ member.avatar }}" />
                            <div class="atvImg-layer" data-img="{{ site.baseurl }}/assets/img/team/{{ member.avatar }}"></div>
@@ -96,8 +96,6 @@ title: {{ site.name }}
                     </div>
                 {% endfor %}
             </div>
-        </div>
-    </div>
 
     <div class="about-footer">
       <i class="fa fa-star-o" aria-hidden="true"></i>
